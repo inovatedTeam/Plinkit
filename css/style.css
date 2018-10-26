@@ -1,0 +1,297 @@
+
+
+.navbar-brand img{
+    width: 190px;
+}
+.font-sign{
+    font-family: 'SignPainter';
+}
+.col-main-black{
+    color : #656e74;
+}
+.line-selction-heading{
+    width: 100px;
+    margin: 0px auto;
+    margin-bottom: 80px;
+    border-bottom: 4px solid #656e74;
+}
+
+.line-feature-heading{
+    width: 60px;
+    margin: 0px auto;
+    float: left;
+    margin-bottom: 30px;
+    border-bottom: 4px solid #67C6BA;
+}
+
+.bg-light{
+    background-color: #fcfcfc!important;
+}
+
+/*#home*/
+#home {
+    margin-top: 0px;
+}
+
+.btn-apple{
+    margin-top: 20px;
+    padding: 0px;
+}
+
+header.masthead .intro-text {
+    padding-top: 476px;
+    padding-bottom: 70px;
+}
+
+header.masthead .intro-text .intro-lead-in {
+    font-size: 76px;
+    font-style: italic;
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+.masthead .btn-apple{
+     margin-top: 0px;
+}
+.btn-apple img{
+    width: 180px;
+}
+
+/*section about*/
+.fa-about{
+    display: inline-block;
+    height: 220px;
+    position: relative;
+    vertical-align: middle;
+    width: 300px;
+}
+.btn-play {
+    left: calc(50% - 37px);
+    position: absolute;
+    bottom: -13px;
+}
+.btn-play img{
+    width: 74px;
+}
+.right-item{
+    display: block;
+}
+.left-item{
+    display: none;
+}
+
+/*#section features*/
+.feature-item{
+    margin-bottom: 15px;
+}
+.feature-body.ft-text{
+    margin-left : 50px;
+    margin-right: 50px;
+}
+.feature-body.ft-img{
+    margin-right : 50px;
+    text-align: right;
+    position: relative;
+}
+.ft-img img{
+    width: 367px;
+}
+.ft-play {
+    left: calc(50% + 40px);
+    position: absolute;
+    bottom: 140px;
+}
+.ft-play img{
+    width: 74px;
+}
+.ft-text .btn-apple img {
+    width: 130px;
+}
+.feature-body.ft-text.ft-1{margin-top: 47px;}
+.feature-body.ft-text.ft-2{margin-top: 66px;}
+.feature-body.ft-text.ft-3{margin-top: 75px;}
+.feature-body.ft-text.ft-4{margin-top: 62px;}
+.feature-body.ft-text.ft-5{margin-top: 81px;}
+.feature-body.ft-text.ft-6{margin-top: 72px;}
+.feature-body.ft-text.ft-7{margin-top: 84px;}
+
+/*#footer*/
+footer img{width: 168px;}
+.list-inline-item {
+    display: inline-flex;
+}
+.list-inline.social-buttons{margin-top: 50px;}
+
+@media (max-width: 1200px) {
+    .feature-body.ft-img{
+        margin-right: 0px;
+    }
+    .ft-play {
+        left: calc(50% + 20px);
+    }
+}
+
+@media (max-width: 991px){
+    #home {
+        margin-top: 80px;
+    }
+    header.masthead .intro-text {
+        padding-top: 280px;
+        padding-bottom: 25px;
+    }
+    header.masthead .intro-text .intro-lead-in {
+        font-size: 57px;
+        font-style: italic;
+        line-height: 60px;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+        color: #67c6ba;
+         border-bottom: 0px solid #67c6ba;
+    }
+    #about .col-md-4 {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    section h2.feature-heading {
+        font-size: 20px;
+    }
+
+    .feature-description{
+        font-size: 14px;
+    }
+    .feature-body.ft-text{
+        margin-left : 0px;
+        margin-right : 0px;
+    }
+    .feature-body.ft-img{
+        margin-right : 0px;
+        text-align: right;
+    }
+    .ft-play {
+        left: calc(50% - 25px);
+    }
+    .ft-play {
+        bottom: 120px;
+    }
+    .feature-body.ft-text.ft-1{margin-top: 47px;}
+    .feature-body.ft-text.ft-2{margin-top: 66px;}
+    .feature-body.ft-text.ft-3{margin-top: 75px;}
+    .feature-body.ft-text.ft-4{margin-top: 62px;}
+    .feature-body.ft-text.ft-5{margin-top: 81px;}
+    .feature-body.ft-text.ft-6{margin-top: 72px;}
+    .feature-body.ft-text.ft-7{margin-top: 84px;}
+}
+
+@media (max-width: 768px){
+    section {
+        padding: 40px 0;
+    }
+    .line-selction-heading {
+        margin-bottom: 40px;
+    }
+    section h2.feature-heading {
+        font-size: 20px;
+    }
+    .feature-description{
+        font-size: 14px;
+    }
+    .feature-body.ft-text{
+        margin-left : 0px;
+    }
+    .feature-body.ft-img{
+        text-align: center;
+    }
+    .feature-body.ft-text.ft-1{
+        margin-top: 0px;
+    }
+    .ft-play {
+        left: calc(50% - 23px);
+        bottom: 140px;
+    }
+    .right-item{
+        display: none;
+    }
+    .left-item{
+        display: block;
+    }
+    .feature-body.ft-text.ft-1{margin-top: 0px;}
+    .feature-body.ft-text.ft-2{margin-top: 0px;}
+    .feature-body.ft-text.ft-3{margin-top: 0px;}
+    .feature-body.ft-text.ft-4{margin-top: 0px;}
+    .feature-body.ft-text.ft-5{margin-top: 0px;}
+    .feature-body.ft-text.ft-6{margin-top: 0px;}
+    .feature-body.ft-text.ft-7{margin-top: 0px;}
+    .list-inline.social-buttons{margin-top: 20px;
+        margin-bottom:20px;}
+}
+@media (max-width: 640px){
+    header.masthead .intro-text {
+        padding-top: 200px;
+        padding-bottom: 25px;
+    }
+    header.masthead .intro-text .intro-lead-in {
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .btn-apple img {
+        width: 130px;
+    }
+
+}
+
+@media (max-width: 576px){
+    #home {
+        margin-top: 70px;
+    }
+    .navbar-brand img {
+        width: 150px;
+    }
+    #press .col-md-3.col-sm-6{width: 50%; margin-bottom: 10px;}
+    section h2.section-heading {font-size: 40px;}
+}
+
+@media (max-width: 479px){
+    .navbar-brand img {
+        width: 130px;
+    }
+    #home {
+        margin-top: 64px;
+    }
+    header.masthead .intro-text {
+        padding-top: 110px;
+        padding-bottom: 10px;
+    }
+    header.masthead .intro-text .intro-lead-in {
+        font-size: 26px;
+        font-style: italic;
+        line-height: 30px;
+        margin-bottom: 0px;
+    }
+    .btn-apple img {
+        width: 80px;
+    }
+
+    .fa-about {
+        height: 203px;
+        width: 270px;
+    }
+    .service-heading {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    section {
+        padding: 30px 0;
+    }
+    section h2.section-heading {font-size: 34px;}
+    #download .btn-apple img{width: 130px;}
+}
+@media (max-width: 360px){
+    section h2.section-heading {
+        font-size: 28px;
+    }
+    .ft-play {
+        bottom: 90px;
+    }
+}
